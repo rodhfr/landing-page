@@ -3,6 +3,8 @@ defaultContentLanguage = "en"
 # Automatically generate robots.txt
 enableRobotsTXT = true
 languageCode = "en"
+pygmentsStyle = "monokai"
+enableEmoji = true
 theme = "gokarna"
 title = "Rodolfo França"
 
