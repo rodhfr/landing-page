@@ -1,0 +1,96 @@
+baseURL = "https://dev.rodhfr.space/"
+defaultContentLanguage = "en"
+# Automatically generate robots.txt
+enableRobotsTXT = true
+languageCode = "en"
+theme = "gokarna"
+title = "Rodolfo França"
+
+[params]
+  # Choose the color shown when hyperlinks are hovered over
+  accentColor = "#FF4D4D"
+  # Resource URL for the site avatar (home page and header)
+  avatarURL = "/images/me-myself.jpg"
+
+  # Set the avatar's size: size-xs, size-s, size-m, size-l & size-xl
+  avatarSize = "size-m"
+
+  # Inject arbitrary HTML via the <head> tag
+  # Best used for importing custom JavaScript, CSS, or analytics
+  customHeadHTML = ""
+
+  # Configure how post dates are displayed
+  dateFormat = "January 2, 2006"
+  
+  # Home page meta description
+  description = "std::cout << \"hello, stranger!\""
+
+    socialIcons = [
+    {name = "linkedin", url = "https://www.linkedin.com/in/rodolfo-fran%C3%A7a-de-souza-28b55a286/"},
+    {name = "cv", url = "/files/cv_rodolfo_franca.pdf"},
+    {name = "email", url = "mailto:souzafrodolfo@gmail.com"}
+  ]
+
+  # Footer text (i.e. author/project name)
+  footer = "Rodolfo França"
+
+  # Define SEO keywords
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # Define how many posts are displayed on the home page
+  # showPostsOnHomePage must be "popular" or "recent"
+  numberPostsOnHomePage = 4
+
+  # Display a "back to top" button on posts and pages: true, false
+  # May not render on smaller screen sizes
+  showBackToTopButton = true
+
+  # Display posts on the home page:
+  # "popular" (order posts by weight)
+  # "recent" (order posts by date)
+  # "", unset (do not display)
+  showPostsOnHomePage = ""
+
+  # Show the previous and next post in your timeline: "true", "false"
+  # Incompatible with Weight
+  togglePreviousAndNextButtons = false
+
+  displayReadingTime = true
+
+
+[menu]
+  [[menu.main]]
+    # Display name
+    name = "Posts"
+
+    # Relative URL slug (appended to baseURL)
+    url = "/posts/"
+
+    # Lower weights are listed first in the menu (leftmost); higher weights are
+    # listed last in the menu (rightmost)
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+    
+  [[menu.main]]
+    # Unique identifiers are required for menu entries without a name property,
+    # or for menu entries which re-use a name
+    identifier = "github"
+
+    # Absolute URL to external resource
+    url = "https://github.com/rodhfr"
+    weight = 4
+    
+    # Surround the menu entry (or name) with HTML content, such as Feather
+    # icons: https://feathericons.com
+    pre = "<span data-feather='github'></span>"
+    post = ""
+
