@@ -24,10 +24,12 @@ Comando distrobox create gera a receita do container. Através dele podemos pass
 * `--bind` já que iremos utilizar uma home separada da home do host então vamos criar links simbólicos utilizando o argumento bind para que quando dê ls na home do container, apareça as mesmas pastas de usuário do host. Dessa forma, caso exclua o container, os arquivos pessoais estarão a salvo.
 * `--image` a imagem selecionada foi a ublue-os/bazzite-arch. Essa imagem é pensada para jogos mas já é pré configurada para esse ambiente e pensada para esse ambiente de distrobox, criada pensando em sistemas como o do steamdeck.
 
-In the end of the article I have a installer script. But a very basic setup would be:
+No final do artigo existe um script de instalacao. Um setup muito simples seria assim: 
+```
 DISTROBOX_HOME="$HOME/Machines/archbox"
 IMUTABLE_HOME="/var$HOME"
 mkdir -p $DISTROBOX_HOME
+```
 
 Para sistemas imutáveis (Ex. Fedora Silverblue 42):
 ```shell
