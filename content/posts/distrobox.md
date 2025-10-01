@@ -88,7 +88,9 @@ rm packages.txt
 
 ## Example Script
 Veja o código:
-[devops-tools/distrobox/deploy_archbox_bazite.sh](https://github.com/rodhfr/devops-tools/blob/main/distrobox/deploy_archbox_bazite.sh)
+* [devops-tools/distrobox/deploy_archbox_bazite.sh](https://github.com/rodhfr/devops-tools/blob/main/distrobox/deploy_archbox_bazite.sh)
 
 E teste você mesmo! 
+```shell
 curl -sSL https://raw.githubusercontent.com/rodhfr/devops-tools/refs/heads/main/distrobox/deploy_archbox_bazite.sh | bash
+```
