@@ -27,7 +27,7 @@ Comando distrobox create gera a receita do container. Através dele podemos pass
 No final do artigo existe um script de instalacao. Um setup muito simples seria assim: 
 ```
 DISTROBOX_HOME="$HOME/Machines/archbox"
-IMUTABLE_HOME="/var$HOME"
+IMUTABLE_HOME="$HOME"
 mkdir -p $DISTROBOX_HOME
 ```
 
@@ -35,14 +35,14 @@ Para sistemas imutáveis (Ex. Fedora Silverblue 42):
 ```shell
 distrobox-create \
   --name archbox \
-  --home "/var$DISTROBOX_HOME" \
+  --home "$DISTROBOX_HOME" \
   --hostname archbox \
   --init \
   --image ghcr.io/ublue-os/arch-distrobox:latest \
   --volume "$IMUTABLE_HOME/Desktop:$DISTROBOX_HOME/Desktop:rw" \
   --volume "$IMUTABLE_HOME/Downloads:$DISTROBOX_HOME/Downloads:rw" \
   --volume "$IMUTABLE_HOME/Documents:$DISTROBOX_HOME/Documents:rw" \
-  --volume "$IMUTABLE_HOME/Pictures:$DISTROBOX_HOME/Pictures:rw" \
+  --volume "$IMUTABLE_HOME/Pictures:$DISTROBOX_HOME/Pictures:rw"
 ```
 
 ```shell

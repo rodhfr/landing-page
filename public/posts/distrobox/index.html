@@ -208,20 +208,20 @@ Algo positivo na experiência também é poder utilizar qualquer imagem, e conse
 </ul>
 <p>No final do artigo existe um script de instalacao. Um setup muito simples seria assim:</p>
 <pre tabindex="0"><code>DISTROBOX_HOME=&#34;$HOME/Machines/archbox&#34;
-IMUTABLE_HOME=&#34;/var$HOME&#34;
+IMUTABLE_HOME=&#34;$HOME&#34;
 mkdir -p $DISTROBOX_HOME
 </code></pre><p>Para sistemas imutáveis (Ex. Fedora Silverblue 42):</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>distrobox-create <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --name archbox <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --home <span style="color:#e6db74">&#34;/var</span>$DISTROBOX_HOME<span style="color:#e6db74">&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --home <span style="color:#e6db74">&#34;</span>$DISTROBOX_HOME<span style="color:#e6db74">&#34;</span> <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --hostname archbox <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --init <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --image ghcr.io/ublue-os/arch-distrobox:latest <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --volume <span style="color:#e6db74">&#34;</span>$IMUTABLE_HOME<span style="color:#e6db74">/Desktop:</span>$DISTROBOX_HOME<span style="color:#e6db74">/Desktop:rw&#34;</span> <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --volume <span style="color:#e6db74">&#34;</span>$IMUTABLE_HOME<span style="color:#e6db74">/Downloads:</span>$DISTROBOX_HOME<span style="color:#e6db74">/Downloads:rw&#34;</span> <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --volume <span style="color:#e6db74">&#34;</span>$IMUTABLE_HOME<span style="color:#e6db74">/Documents:</span>$DISTROBOX_HOME<span style="color:#e6db74">/Documents:rw&#34;</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --volume <span style="color:#e6db74">&#34;</span>$IMUTABLE_HOME<span style="color:#e6db74">/Pictures:</span>$DISTROBOX_HOME<span style="color:#e6db74">/Pictures:rw&#34;</span> <span style="color:#ae81ff">\
-</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>distrobox enter archbox
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --volume <span style="color:#e6db74">&#34;</span>$IMUTABLE_HOME<span style="color:#e6db74">/Pictures:</span>$DISTROBOX_HOME<span style="color:#e6db74">/Pictures:rw&#34;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>distrobox enter archbox
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cat &gt; packages.txt <span style="color:#e6db74">&lt;&lt;EOF
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">systemd
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">podman
