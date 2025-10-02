@@ -32,7 +32,7 @@ title = "Rodolfo França Portifolio"
     {name = "cv", url = "/files/cv_rodolfo_franca.pdf"},
     {name = "email", url = "mailto:souzafrodolfo@gmail.com"},
     {name = "github", url = "https://github.com/rodhfr/"},
-    {name = "linkedin", url = "https://www.linkedin.com/in/rodolfo-fran%C3%A7a-de-souza-28b55a286/"}
+    {name = "linkedin", url = "https://www.linkedin.com/in/rodolfofrancasouza/"}
   ]
 
   # Footer text (i.e. author/project name)
