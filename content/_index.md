@@ -9,6 +9,9 @@ showTableOfContents: false
 ---
 
 # Bom dia, tudo bem?
-### Veja meus [projetos](https://dev.rodhfr.space/projects/) 🛠️🚀⭐
+
+### Veja meus [projetos](https://github.com/rodhfr) 🛠️🚀⭐
+
 [![Preview](/images/preview.webp)](https://dev.rodhfr.space/projects)
-### Veja meus [posts](https://dev.rodhfr.space/posts/) 📝📚🚩
+
+### Veja meus [posts](https://www.linkedin.com/in/rodolfofrancasouza/recent-activity/all/)
