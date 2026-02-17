@@ -1,19 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Containers on Rodolfo França Portifolio</title>
-    <link>https://dev.rodhfr.space/tags/containers/</link>
-    <description>Recent content in Containers on Rodolfo França Portifolio</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dev.rodhfr.space/tags/containers/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Distrobox, a melhor ferramenta para sistemas imutáveis</title>
-      <link>https://dev.rodhfr.space/posts/distrobox/</link>
-      <pubDate>Tue, 30 Sep 2025 22:52:57 -0300</pubDate>
-      <guid>https://dev.rodhfr.space/posts/distrobox/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://dev.rodhfr.space/images/distrobox.svg&#34; alt=&#34;Distrobox&#34; title=&#34;Uma caixa de pandora&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;distrobox&#34;&gt;Distrobox&lt;/h1&gt;&#xA;&lt;p&gt;Esse ano quero me familiarizar mais com&#xA;Distrobox é uma forma simples de tornar distribuições linux imutáveis como o fedora silverblue mais utilizáveis. Ele basicamente roda um container docker e integra ele da melhor forma ao sistema. Para que as aplicacões possam ser rodadas diretamente através dessa camada de isolamento.&#xA;Algo positivo na experiência também é poder utilizar qualquer imagem, e consequentemente, qualquer gerenciador de pacotes que vier nelas como o aur do archlinux e não ter que lidar com rodar o archlinux diariamente, se quebrar, gera outra e vida que segue, o sistema raiz em si está intacto.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Containers on Rodolfo França Portifolio</title><link>https://dev.rodhfr.space/tags/containers/</link><description>Recent content in Containers on Rodolfo França Portifolio</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dev.rodhfr.space/tags/containers/index.xml" rel="self" type="application/rss+xml"/><item><title>Distrobox, a melhor ferramenta para sistemas imutáveis</title><link>https://dev.rodhfr.space/posts/distrobox/</link><pubDate>Tue, 30 Sep 2025 22:52:57 -0300</pubDate><guid>https://dev.rodhfr.space/posts/distrobox/</guid><description>&lt;p&gt;&lt;img src="https://dev.rodhfr.space/images/distrobox.svg" alt="Distrobox" title="Uma caixa de pandora"&gt;&lt;/p&gt;
+&lt;h1 id="distrobox"&gt;Distrobox&lt;/h1&gt;
+&lt;p&gt;Esse ano quero me familiarizar mais com
+Distrobox é uma forma simples de tornar distribuições linux imutáveis como o fedora silverblue mais utilizáveis. Ele basicamente roda um container docker e integra ele da melhor forma ao sistema. Para que as aplicacões possam ser rodadas diretamente através dessa camada de isolamento.
+Algo positivo na experiência também é poder utilizar qualquer imagem, e consequentemente, qualquer gerenciador de pacotes que vier nelas como o aur do archlinux e não ter que lidar com rodar o archlinux diariamente, se quebrar, gera outra e vida que segue, o sistema raiz em si está intacto.&lt;/p&gt;</description></item></channel></rss>
